@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on data applications in k8s.
+- 🌱 I’m currently learning to build atomic habits.
+- 👯 I’m looking to collaborate on open source projects (scala, python).
+- 😄 Pronouns: he/him.
+- ⚡ Fun fact: ...
+
 <!--
 **avikbesu/avikbesu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
