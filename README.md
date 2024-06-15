@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on data applications in k8s.
-- 🌱 I’m currently learning to build atomic habits.
-- 👯 I’m looking to collaborate on open source projects (scala, python).
+- 🔭 I’m currently working on building scalable data applications in k8s.
+- 🌱 I’m currently learning to build best practices to develop data applications.
+- 👯 I’m looking to collaborate on open source projects (scala, python) and mentoring on data technologies. 
 - 😄 Pronouns: he/him.
 - ⚡ Fun fact: ...
 
