@@ -23,8 +23,11 @@ Here are some ideas to get you started:
 
 
 #### 💻 Tech Stacks:
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
+![Go](https://img.shields.io/badge/GoLang-00ADD8?logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=flat&logo=apachespark&logoColor=#E35A16)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 ![Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
