@@ -1,12 +1,13 @@
-### Hi there 👋
+### Hey 👋
 
+<!--
 - 🔭 I’m currently working on building scalable data solutions in cloud.
 - 🌱 I’m currently learning to build best practices to develop data applications.
 - 👯 I’m looking to collaborate on open source projects (scala, python) and mentoring on data technologies. 
 - 😄 Pronouns: he/him.
 - ⚡ Fun fact: ...
 
-<!--
+
 **avikbesu/avikbesu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -22,7 +23,7 @@ Here are some ideas to get you started:
 -->
 
 
-#### 💻 Tech Stacks:
+#### 💻 Tech stacks I am using:
 
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
 ![Go](https://img.shields.io/badge/GoLang-00ADD8?logo=go&logoColor=white)
