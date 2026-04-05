@@ -26,9 +26,9 @@
 
 #### Orchestration & Pipelines
 ![Airflow](https://img.shields.io/badge/Airflow-00FFFF?style=flat&logo=Apache%20Airflow&logoColor=black)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=flat&logo=apachespark&logoColor=#E35A16)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=flat&logo=apachespark&logoColor=%23E35A16)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?logo=apacheflink&logoColor=white)
+![Apache Flink](https://img.shields.io/badge/Apache_Flink-E6526F?style=flat&logo=apacheflink&logoColor=white)
 
 #### Infrastructure & Cloud
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=flat&logo=kubernetes&logoColor=white)
@@ -38,14 +38,14 @@
 
 #### Languages
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![Go](https://img.shields.io/badge/GoLang-00ADD8?logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/GoLang-00ADD8?style=flat&logo=go&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
 
 #### Data Storage & Query
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apache%20cassandra&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-247481?logo=duckdb&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-247481?style=flat&logo=duckdb&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-5A6A7A?style=flat&logoColor=white)
 ![Trino](https://img.shields.io/badge/Trino-DD00A1?style=flat&logoColor=white)
 
@@ -63,8 +63,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=avikbesu&show_icons=true&theme=radical&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avikbesu&layout=compact&theme=radical&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=avikbesu&show_icons=true&theme=radical&hide_border=true&cache_seconds=86400" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avikbesu&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" height="150"/>
 </p>
 
 ---
