@@ -63,7 +63,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com?user=avikbesu&theme=radical&hide_border=true" height="150" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=avikbesu&theme=radical&hide_border=true" height="150" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
