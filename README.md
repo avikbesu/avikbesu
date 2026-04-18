@@ -18,7 +18,7 @@
 ### `~/flow` &nbsp;<sub>how the work flows</sub>
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[("SOURCES<br/>Kafka · APIs · S3")]
     B["INGEST<br/>Flink · Spark · Glue"]
     C["ORCHESTRATE<br/>Airflow 3.x · MWAA"]
