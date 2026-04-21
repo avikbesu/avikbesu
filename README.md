@@ -41,8 +41,6 @@ flowchart LR
 
 ---
 
-### `~/focus` &nbsp;<sub>right now</sub>
-
 | | |
 |---|---|
 | **Platform work** | Airflow 3.x · Kubernetes · Iceberg + Trino lakehouse patterns |
