@@ -1,0 +1,12 @@
+title: Avik Mandal
+description: Data Engineer → Data + AI Engineer
+theme: minima
+minima:
+  skin: dark
+plugins:
+  - jekyll-readme-index
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
