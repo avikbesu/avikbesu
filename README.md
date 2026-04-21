@@ -41,13 +41,13 @@ flowchart LR
 
 ---
 
-| | |
-|---|---|
-| **Platform work** | Airflow 3.x · Kubernetes · Iceberg + Trino lakehouse patterns |
-| **AWS** | MWAA · EMR · Glue · Athena · S3 · Lambda · ECS |
-| **AI in the loop** | Using AI across the dev cycle — design, code, review, docs |
-| **AI in the product** | Shipping features where AI measurably improves UX |
-| **Learning** | AWS Data Engineer cert · Go for backend services · model serving |
+<table>
+<tr><td><b>Platform work</b></td><td>Airflow 3.x · Kubernetes · Iceberg + Trino lakehouse patterns</td></tr>
+<tr><td><b>AWS</b></td><td>MWAA · EMR · Glue · Athena · S3 · Lambda · ECS</td></tr>
+<tr><td><b>AI in the loop</b></td><td>Using AI across the dev cycle — design, code, review, docs</td></tr>
+<tr><td><b>AI in the product</b></td><td>Shipping features where AI measurably improves UX</td></tr>
+<tr><td><b>Learning</b></td><td>AWS Data Engineer cert · Go for backend services · model serving</td></tr>
+</table>
 
 ---
 
