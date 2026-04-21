@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --bg-alt: #161b22;
+      --bg-alt-2: #1c2128;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-strong: #f0f6fc;
+      --muted: #8b949e;
+      --link: #58a6ff;
+      --link-visited: #bc8cff;
+      --accent: #8957e5;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--text-strong);
+      border-bottom: none;
+    }
+    h1 { font-size: 2em; margin-top: 0; }
+    h3 { font-size: 1.25em; margin-top: 2em; }
+    h4 { font-size: 1em; margin-top: 1.5em; }
+    sub { color: var(--muted); font-size: 0.85em; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:visited { color: var(--link-visited); }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+    p, li { color: var(--text); }
+    code {
+      background-color: var(--bg-alt);
+      color: var(--text-strong);
+      padding: 0.2em 0.4em;
+      border-radius: 6px;
+      font-size: 85%;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    pre {
+      background-color: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    pre code {
+      background: transparent;
+      padding: 0;
+      font-size: 100%;
+      color: var(--text);
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+    }
+    table th, table td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      background: transparent;
+      vertical-align: top;
+    }
+    table th {
+      background-color: var(--bg-alt);
+      color: var(--text-strong);
+    }
+    table tr:nth-child(2n) td {
+      background-color: rgba(110, 118, 129, 0.05);
+    }
+    blockquote {
+      margin: 0;
+      padding: 0 1em;
+      border-left: 4px solid var(--border);
+      color: var(--muted);
+    }
+    img { max-width: 100%; vertical-align: middle; }
+    .mermaid {
+      background: transparent;
+      text-align: center;
+      margin: 1.5em 0;
+    }
+    .mermaid svg {
+      max-width: 100%;
+      height: auto;
+    }
+    ::selection { background: var(--accent); color: #fff; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: "dark",
+      securityLevel: "loose",
+      flowchart: { htmlLabels: true, curve: "basis" },
+      themeVariables: {
+        darkMode: true,
+        background: "#0d1117",
+        primaryColor: "#161b22",
+        primaryTextColor: "#e6edf3",
+        primaryBorderColor: "#30363d",
+        lineColor: "#8b949e",
+        secondaryColor: "#2d1b4e",
+        tertiaryColor: "#161b22"
+      }
+    });
+
+    document.querySelectorAll("code.language-mermaid").forEach(function (code) {
+      var source = code.textContent;
+      var container = document.createElement("div");
+      container.className = "mermaid";
+      container.textContent = source;
+      var wrap =
+        code.closest("div.language-mermaid") ||
+        code.closest("figure.highlight") ||
+        code.closest("pre");
+      (wrap || code).parentNode.replaceChild(container, wrap || code);
+    });
+
+    mermaid.run({ querySelector: ".mermaid" });
+  </script>
+</body>
+</html>
