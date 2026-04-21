@@ -40,6 +40,7 @@ flowchart LR
 <sub><i>The solid path is where I've lived for a decade. The dotted path is where I'm building next.</i></sub>
 
 ---
+### `~/focus` &nbsp;<sub>right now</sub>
 
 <table>
 <tr><td><b>Platform work</b></td><td>Airflow 3.x · Kubernetes · Iceberg + Trino lakehouse patterns</td></tr>
