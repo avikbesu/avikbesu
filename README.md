@@ -43,8 +43,6 @@ flowchart LR
 
 ### `~/focus` &nbsp;<sub>right now</sub>
 
-| | |
-|---|---|
 | **Platform work** | Airflow 3.x · Kubernetes · Iceberg + Trino lakehouse patterns |
 | **AWS** | MWAA · EMR · Glue · Athena · S3 · Lambda · ECS |
 | **AI in the loop** | Using AI across the dev cycle — design, code, review, docs |
