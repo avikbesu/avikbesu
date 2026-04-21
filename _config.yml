@@ -9,3 +9,8 @@ kramdown:
   parse_span_html: true
   hard_wrap: false
   syntax_highlighter: rouge
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

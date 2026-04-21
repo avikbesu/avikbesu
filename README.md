@@ -24,7 +24,7 @@ flowchart LR
     C["ORCHESTRATE<br/>Airflow 3.x · MWAA"]
     D[("LAKE<br/>Iceberg · S3 · MinIO")]
     E["QUERY<br/>Trino · Athena · DuckDB"]
-    F{{"AI LAYER<br/>LLM tooling · RAG · Bedrock"}}
+    F(["AI LAYER<br/>LLM tooling · RAG · Bedrock"])
     G[["PRODUCTS<br/>dashboards · features · agents"]]
 
     A --> B --> C --> D --> E --> G
@@ -58,18 +58,14 @@ flowchart LR
 <table>
 <tr>
 <td width="50%" valign="top">
-
-**[local-infra-setup](https://github.com/avikbesu/local-infra-setup)**
-<sub>Local dev infra with all services wired together.</sub>
-<sub>`Shell` · `Docker` · `Makefile`</sub>
-
+<strong><a href="https://github.com/avikbesu/local-infra-setup">local-infra-setup</a></strong><br/>
+<sub>Local dev infra with all services wired together.</sub><br/>
+<sub><code>Shell</code> · <code>Docker</code> · <code>Makefile</code></sub>
 </td>
 <td width="50%" valign="top">
-
-**[airflow3-dags](https://github.com/avikbesu/airflow3-dags)**
-<sub>Production-style DAG patterns exploring Airflow 3.x.</sub>
-<sub>`Python` · `Airflow 3.x`</sub>
-
+<strong><a href="https://github.com/avikbesu/airflow3-dags">airflow3-dags</a></strong><br/>
+<sub>Production-style DAG patterns exploring Airflow 3.x.</sub><br/>
+<sub><code>Python</code> · <code>Airflow 3.x</code></sub>
 </td>
 </tr>
 </table>
@@ -139,43 +135,34 @@ flowchart LR
 <table>
 <tr>
 <td width="33%" valign="top">
-
-#### 🎤 Speaking
-
-<sub><b>Airflow DAG patterns at scale</b></sub>
+<h4>🎤 Speaking</h4>
+<sub><b>Airflow DAG patterns at scale</b></sub><br/>
 <sub>Internal tech talks — production-grade orchestration, failure modes, observability.</sub>
-
-<sub><b>Data platform case studies</b></sub>
+<br/><br/>
+<sub><b>Data platform case studies</b></sub><br/>
 <sub>Lakehouse architecture, cost/perf trade-offs. Available on request.</sub>
-
+<br/><br/>
 <sub><a href="https://www.linkedin.com/in/avikmandal/">→ Invite me to speak</a></sub>
-
 </td>
 <td width="33%" valign="top">
-
-#### 🌱 Open Source
-
-<sub><b>Airflow community</b></sub>
+<h4>🌱 Open Source</h4>
+<sub><b>Airflow community</b></sub><br/>
 <sub>Contributing around Airflow 3.x patterns, providers, and dev ergonomics.</sub>
-
-<sub><b>Local-dev tooling</b></sub>
+<br/><br/>
+<sub><b>Local-dev tooling</b></sub><br/>
 <sub><a href="https://github.com/avikbesu/local-infra-setup">local-infra-setup</a> — batteries-included dev stack.</sub>
-
+<br/><br/>
 <sub><a href="https://github.com/avikbesu?tab=repositories">→ All repositories</a></sub>
-
 </td>
 <td width="33%" valign="top">
-
-#### ✍️ Writing
-
-<sub><b>Production DAG patterns</b></sub>
+<h4>✍️ Writing</h4>
+<sub><b>Production DAG patterns</b></sub><br/>
 <sub>Notes on idempotency, backfills, and observability in Airflow.</sub>
-
-<sub><b>AI-augmented engineering</b></sub>
+<br/><br/>
+<sub><b>AI-augmented engineering</b></sub><br/>
 <sub>What actually moves the needle in the daily dev loop.</sub>
-
+<br/><br/>
 <sub><a href="https://www.linkedin.com/in/avikmandal/">→ Posts on LinkedIn</a></sub>
-
 </td>
 </tr>
 </table>
