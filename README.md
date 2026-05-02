@@ -123,7 +123,7 @@ flowchart LR
 ### `~/stats` &nbsp;<sub>github signal</sub>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=avikbesu&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=8957E5&icon_color=8957E5" height="160"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=avikbesu&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=8957E5&icon_color=8957E5" height="160"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=avikbesu&theme=github-dark-blue&hide_border=true&background=0D1117&ring=8957E5&fire=8957E5&currStreakLabel=8957E5" height="160"/>
 </p>
 
