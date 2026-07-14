@@ -7,9 +7,7 @@
 <sub>Bangalore, India &nbsp;•&nbsp; Shipping data platforms &nbsp;•&nbsp; Building with AI, building for AI</sub>
 
 <p>
-  <a href="https://www.linkedin.com/in/avikmandal/">
-    <img src="https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
-  </a>
+  <a href="https://www.linkedin.com/in/avikmandal/"><img src="https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=avikbesu&style=flat&color=8957E5&label=profile+views"/>
 </p>
 
