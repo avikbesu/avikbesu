@@ -4,7 +4,7 @@
 
 <h1>Avik Mandal &nbsp;<sub><sub>// Data Engineer → Data + AI Engineer</sub></sub></h1>
 
-<sub>Bangalore, India &nbsp;•&nbsp; Shipping data platforms since 2012 &nbsp;•&nbsp; Building with AI, building for AI</sub>
+<sub>Bangalore, India &nbsp;•&nbsp; Shipping data platforms &nbsp;•&nbsp; Building with AI, building for AI</sub>
 
 <p>
   <a href="https://www.linkedin.com/in/avikmandal/">
